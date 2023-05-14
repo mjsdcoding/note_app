@@ -119,6 +119,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
             ),
+            SizedBox(height: 20,),
             Expanded(
                 child: ListView.builder(
               padding: const EdgeInsets.only(top: 30),
